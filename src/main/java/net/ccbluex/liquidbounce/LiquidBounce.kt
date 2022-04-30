@@ -40,10 +40,10 @@ import java.io.File
 object LiquidBounce {
 
     // Client information
-    const val CLIENT_NAME = "LiquidBounce++"
+    const val CLIENT_NAME = "Evoware"
     const val CLIENT_VERSION = "270422"
     const val JSONSHT = "public"
-    const val CLIENT_CREATOR = "CCBlueX, WYSI-Foundation and TheMosKau"
+    const val CLIENT_CREATOR = "CCBlueX, WYSI-Foundation and MCHax"
     const val CLIENT_CLOUD = "https://themoskau.github.io/LiquidCloud/LiquidBounce"
 
     var isStarting = false
