@@ -41,7 +41,7 @@ import java.util.ArrayList;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-@ModuleInfo(name = "Fly", description = "Allows you to fly in survival mode.", category = ModuleCategory.MOVEMENT, keyBind = Keyboard.KEY_F)
+@ModuleInfo(name = "Flight", description = "Allows you to fly in survival mode.", category = ModuleCategory.MOVEMENT, keyBind = Keyboard.KEY_F)
 public class Fly extends Module {
 
     public final ListValue modeValue = new ListValue("Mode", new String[]{
@@ -63,8 +63,8 @@ public class Fly extends Module {
             // Verus
             "Verus",
             //"VerusFloat",
-            "VerusLowHop",
-            "VerusLowHop2",
+            "VerusWeird",
+            "VerusWeird2",
 
             // Spartan
             "Spartan",
@@ -86,7 +86,7 @@ public class Fly extends Module {
             "KeepAlive",
             "Clip",
             "Jump",
-            "Derp",
+            "Funny",
             "Collide"
     }, "Motion");
 
